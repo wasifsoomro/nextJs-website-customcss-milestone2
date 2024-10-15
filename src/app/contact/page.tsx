@@ -3,7 +3,7 @@ import styles from "../contact/page.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function page() {
+export default function Page() {
   return (
     <section className={styles.contactPage}>
       <h1 className={styles.heading}>Contact Us</h1>
