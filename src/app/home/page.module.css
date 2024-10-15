@@ -1,0 +1,245 @@
+/* home page */
+
+.divContainer {
+    color: #FAF9F6;
+    background-color: #2c2c2e;
+    display: flex;
+    gap: 5rem; /* 80px / 16 = 5rem */
+    padding-left: 3.5rem; /* 56px / 16 = 3.5rem */
+  }
+  
+  .headingContainer {
+    display: inline-block;
+    padding: 1.875rem; /* 30px / 16 = 1.875rem */
+    padding-top: 5.625rem; /* 90px / 16 = 5.625rem */
+  }
+  
+  .imageContainer {
+    display: inline-block;
+    padding: 1.875rem; /* 30px / 16 = 1.875rem */
+    padding-left: 2.5rem; /* 40px / 16 = 2.5rem */
+    margin-top: 5.625rem; /* 90px / 16 = 5.625rem */
+    margin-left: 0.5rem; /* 8px / 16 = 0.5rem */
+  }
+  
+  .heading {
+    color:  #3498db;;
+    text-align: right;
+    padding-top: 0.625rem; /* 10px / 16 = 0.625rem */
+    padding-right: 3.75rem; 
+    font-size: 5rem; 
+    font-family: "Sansita One";
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .heading2 {
+    color: #3498db;
+    text-align: right;
+    font-size: 5rem; 
+    font-family: "Sansita One";
+    padding-right: 11.875rem; 
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .pimage {
+    border-radius: 50%;
+    border: 0.25rem solid black; 
+  }
+  
+  .name {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 1.25rem; 
+    font-family: 'Sansita One';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 4.375rem; 
+    color: #3498db;
+   
+    padding-right: 2.5rem;
+  }
+  
+  .para {
+    text-align: center;
+  }
+  
+  .para p {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.875rem; /* 30px / 16 = 1.875rem */
+    font-family: "Sansita One";
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.5; /* Keep as is */
+    color: #FAF9F6;
+  }
+  
+  .cards {
+    color: #FAF9F6;
+    background-color: #2c2c2e;
+    padding: 2.5rem; /* 40px / 16 = 2.5rem */
+    position: relative;
+    height: 87.5rem; /* 1400px / 16 = 87.5rem */
+    overflow-y: auto; /* Enable scrolling */
+  }
+  
+  .card1 {
+    color: #3498db; 
+    display: inline-block;
+    width: 31.25rem; /* 500px / 16 = 31.25rem */
+    height: 50rem; /* 800px / 16 = 50rem */
+    border: 1px solid #3498db; /* 1px / 16 = 0.0625rem */
+    align-items: center;
+    justify-content: center;
+    margin-left: 4.375rem; /* 70px / 16 = 4.375rem */
+    position: relative;
+  }
+  
+  .aboutHeading {
+    margin: 3.75rem; /* 60px / 16 = 3.75rem */
+    margin-left: 4.375rem; /* 70px / 16 = 4.375rem */
+    font-size: 5rem; /* 80px / 16 = 5rem */
+    font-family: "Sansita One";
+    font-weight: 900;
+    font-style: italic;
+    color: #3498db;
+  }
+  
+  .aboutImage {
+    margin-left: 4.7rem;
+    border-radius: 50%;
+  }
+  
+  .card2 {
+    display: inline-block;
+    width: 31.25rem; /* 500px / 16 = 31.25rem */
+    height: 50rem; /* 800px / 16 = 50rem */
+    background-color: #353535;
+   border: 1px solid #3498db; /* 1px / 16 = 0.0625rem */
+    align-items: center;
+    justify-content: center;
+    margin-left: 4.375rem; /* 70px / 16 = 4.375rem */
+    position: relative;
+    bottom: -25rem; /* 400px / 16 = 25rem */
+    color: #3498db;
+  }
+  
+  .aboutHeading2 {
+    margin: 3.75rem; /* 60px / 16 = 3.75rem */
+    margin-left: 6.5rem; /* 70px / 16 = 4.375rem */
+    font-size: 8rem; /* 80px / 16 = 5rem */
+    font-family: "Sansita One";
+    font-weight: 900;
+    font-style: italic;
+    color: #3498db;
+  }
+  
+  .htmlcssImage {
+   margin-left: 7em;
+   display: flex;
+   gap: 70px;
+  }
+  
+  .nextContainer {
+    margin-left: 12em;
+  }
+  .nextImage {
+    border-radius: 50%;
+  }
+  
+  .jsreactImage {
+    margin-left: 7em;
+    display: flex;
+    gap: 70px;
+   }
+   
+  
+  .aboutpara {
+    color: #FAF9F6;
+    text-align: justify;
+    display: flex;
+    margin-top: 3.125rem; /* 50px / 16 = 3.125rem */
+    padding: 30px;
+    font-family: "Sansita One";
+    font-weight: 500;
+    font-size: 1.5rem; /* 24px / 16 = 1.5rem */
+  }
+  
+  .aboutpara2 {
+    color: #FAF9F6;
+    text-align: justify;
+    display: flex;
+    margin-top: 4.125rem; /* 50px / 16 = 3.125rem */
+    font-family: "Sansita One";
+    font-weight: 500;
+    font-size: 1.5rem; /* 24px / 16 = 1.5rem */
+    padding: 30px;
+  }
+  
+  .conheaddiv {
+    display: inline-block;
+  }
+  
+  .contHeading {
+    font-size: 4.2rem; 
+    font-family: "Sansita One";
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 2.5em;
+    margin-left: 3rem;
+    
+  }
+  
+  .contactContainer {
+    background-color: #353535;
+    color: #FAF9F6;
+    display: flex;
+    padding: 20px;
+  }
+  
+  
+  .formContainer {
+    background-color: #2c2c2e; 
+    color: #fdfcfc;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    border: 2px solid #145fcf;
+    width: 100%;
+    padding: 40px;
+    border-radius: 20px;
+  }
+  
+  .formInputs, .textArea {
+    margin-bottom: 0.9375rem; 
+    width: 100%;
+    padding: 0.625rem; 
+    color: #FAF9F6;
+    background-color: #2c2c2e;
+  }
+  
+  .label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.3125rem; /* 5px / 16 = 0.3125rem */
+  }
+  
+  .submitButton {
+    border-radius: 8px;
+    padding: 10px;
+    background-color:#145fcf;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #1656b8; /* Darken on hover */
+  }
+  

@@ -1,0 +1,139 @@
+/* Header Styling */
+.headerContainer {
+    background: #2c3e50; /* Dark grey instead of black */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: flex;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.navContainer {
+    padding-right: 3.2em;
+    color: #ecf0f1; /* Light grey */
+    display: flex;
+    gap: 180px;
+    font-weight: bold;
+    font-family: "Sansita One";
+}
+
+.logoContainer {
+    color: #ecf0f1;
+    margin-left: 16px;
+}
+
+.logo {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    /* Header Adjustments */
+    .headerContainer {
+      padding: 15px;
+    }
+    .navContainer {
+      gap: 100px; /* Reduce gap between navigation items */
+      padding-right: 2em;
+    }
+    .heading {
+      font-size: 4rem; /* Decrease font size */
+      padding-right: 2rem;
+    }
+    .heading2 {
+      font-size: 4rem;
+      padding-right: 8rem;
+    }
+  
+    /* Image Adjustments */
+    .pimage {
+      width: 280px;
+      height: 280px;
+    }
+  
+    /* Text Adjustments */
+    .name {
+      font-size: 3.5rem;
+      padding-right: 1.5rem;
+    }
+    .para p {
+      font-size: 1.5rem;
+    }  
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* Header Adjustments */
+    .headerContainer {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+    .navContainer {
+      flex-direction: column;
+      gap: 10px;
+      padding-right: 0;
+    }
+    .navContainer a {
+      font-size: 1rem;
+    }
+  
+    /* Image Adjustments */
+    .pimage {
+      width: 180px;
+      height: 180px;
+      margin: 0 auto;
+    }
+  
+    /* Text Adjustments */
+    .heading, .heading2 {
+      font-size: 2.5rem;
+      text-align: center;
+      padding-right: 0;
+    }
+    .name {
+      font-size: 2.5rem;
+      padding-right: 0;
+      text-align: center;
+    }
+    .para p {
+      font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    /* Header Adjustments */
+    .headerContainer {
+      padding: 5px;
+    }
+    .navContainer {
+      flex-direction: column;
+      gap: 5px;
+    }
+    .navContainer a {
+      font-size: 0.9rem;
+    }
+  
+    /* Image Adjustments */
+    .pimage {
+      width: 150px;
+      height: 150px;
+    }
+  
+    /* Text Adjustments */
+    .heading, .heading2 {
+      font-size: 2rem;
+      padding-right: 0;
+      text-align: center;
+    }
+    .name {
+      font-size: 2rem;
+    }
+    .para p {
+      font-size: 1rem;
+    }
+}  

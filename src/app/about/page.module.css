@@ -1,0 +1,70 @@
+/* about page */
+.aboutPage{
+    color: White;
+}
+
+.aboutHeading {
+    font-size: 4em;
+    font-family: "sansita one";
+    font-weight: 900;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.imageContainer {
+   justify-content: center;
+   align-items: center;
+   display: grid;
+  padding: 25px;
+  }
+
+  .pimage {
+    border-radius: 50%;
+    border: 0.25rem solid rgb(112, 128, 42);
+  }
+
+  .para {
+    text-align: justify;
+    padding: 50px;
+    font-family: "sansita one";
+    font-size: 1.5em;
+    font-weight: 100;
+    color: rgb(253, 253, 252);
+  }
+
+  .skillsContainer {
+    box-shadow: #fd0404 solid;
+    border-radius: 5px;
+  }
+
+  .skillWord {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 4em;
+    font-family: "sansita one";
+  }
+
+
+.skillsGrid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.skillCard {
+  text-align: center;
+}
+
+.skillDescription {
+  font-size: 16px;
+  color: #fffefe;
+  margin-top: 10px;
+  padding: 4px;
+  word-spacing: 10px;
+}
+.h3 {
+  text-align: center;
+  margin-top: 30px;
+}
+  
