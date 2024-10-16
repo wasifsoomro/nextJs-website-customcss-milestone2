@@ -13,11 +13,11 @@
 
 .navContainer {
     padding-right: 3.2em;
-    color: #ecf0f1; /* Light grey */
+    color: #ffffff; /* Light grey */
     display: flex;
     gap: 180px;
     font-weight: bold;
-    font-family: "Sansita One";
+    font-family: sans-serif;
 }
 
 .logoContainer {
