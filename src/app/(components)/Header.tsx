@@ -11,8 +11,8 @@ export default function Header() {
 
       <nav className={Styles.navContainer}>
         <Link href="/">Home</Link>
-        <Link href="/about">About Us</Link>
-        <Link href="/contact">Contact Us</Link>
+        <Link href="/about">About Me</Link>
+        <Link href="/contact">Contact Me</Link>
       </nav>
     </header>
   );
