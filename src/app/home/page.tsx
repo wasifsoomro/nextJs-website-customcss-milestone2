@@ -57,7 +57,7 @@ export default function Home() {
       </div>
 
       <div className={styles.cards}>
-        <div data-aos="fade-right" className={styles.card1}>
+        <div data-aos="zoom-in-up" className={styles.card1}>
           <h1 className={styles.aboutHeading}>About Me</h1>
           <div className={styles.aboutImageContainer}>
             <Image
@@ -75,24 +75,26 @@ export default function Home() {
           </p>
         </div>
 
-        <div data-aos="fade-left" className={styles.card2}>
+        <div data-aos="zoom-in-up" className={styles.card2}>
           <h1 className={styles.aboutHeading2}>Skills</h1>
+          <div className={styles.skillsImages}>
           <div className={styles.htmlcssImage}>
-            <Image src="/html-logo.png" alt="HTML Logo" width={100} height={80} />
-            <Image src="/csslogo.jpeg" alt="CSS Logo" width={100} height={80} />
+            <Image className={styles.html} src="/html-logo.png" alt="HTML Logo" width={100} height={80} />
+            <Image className={styles.css} src="/csslogo.jpeg" alt="CSS Logo" width={100} height={80} />
           </div>
           <div className={styles.nextContainer}>
             <Image
+              className={styles.next}
               src="/nextlogo.jpeg"
               alt="Next.js Logo"
               width={100}
               height={80}
-              className={styles.nextImage}
             />
           </div>
           <div className={styles.jsreactImage}>
-            <Image src="/jslogo.jpeg" alt="JavaScript Logo" width={100} height={80} />
-            <Image src="/reactlogo.jpeg" alt="React Logo" width={100} height={80} />
+            <Image className={styles.js} src="/jslogo.jpeg" alt="JavaScript Logo" width={100} height={80} />
+            <Image className={styles.react} src="/reactlogo.jpeg" alt="React Logo" width={100} height={80} />
+          </div>
           </div>
           <p className={styles.aboutpara2}>
             I am proficient in HTML, CSS, and JavaScript, and I am exploring

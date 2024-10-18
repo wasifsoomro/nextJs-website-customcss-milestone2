@@ -6,16 +6,15 @@
     display: flex;
     gap: 5rem; 
     padding-left: 3.5rem; 
+    flex-wrap: wrap;
   }
   
   .headingContainer {
-    display: inline-block;
-    padding: 1.875rem; 
-    padding-top: 5.625rem; 
+    padding: 2.75rem; 
+     
   }
   
   .imageContainer {
-    display: inline-block;
     padding: 1.875rem; 
     padding-left: 2.5rem; 
     margin-top: 5.625rem; 
@@ -27,7 +26,7 @@
     text-align: right;
     padding-top: 0.625rem; 
     padding-right: 3.75rem; 
-    font-size: 5rem; 
+    font-size: 4rem; 
     font-family: sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -36,7 +35,7 @@
   .heading2 {
     color: #3498db;
     text-align: right;
-    font-size: 5rem; 
+    font-size: 4rem; 
     font-family: sans-serif;
     padding-right: 11.875rem; 
     font-weight: 700;
@@ -56,7 +55,7 @@
     font-family: sans-serif;
     font-style: italic;
     font-weight: 700;
-    font-size: 4.375rem; 
+    font-size: 3.375rem; 
     color: #3498db;
    
     padding-right: 2.5rem;
@@ -69,7 +68,7 @@
   .para p {
     display: block;
     margin: 0 auto;
-    font-size: 1.875rem; 
+    font-size: 1.675rem; 
     font-family: sans-serif;
     font-style: italic;
     font-weight: 700;
@@ -146,7 +145,7 @@
   .nextContainer {
     margin-left: 12em;
   }
-  .nextImage {
+  .next {
     border-radius: 50%;
   }
   
@@ -242,4 +241,1054 @@
   .submitButton:hover {
     background-color: #1656b8; 
   }
+    
+  @media (max-width: 480px) {
+    .divContainer {
+      color: #FAF9F6;
+      background-color: #2c2c2e;
+      display: flex;
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center; 
+      flex-wrap: nowrap; 
+      margin: auto;
+  }
+
+  .pimage {
+      height: 180px;
+      width: 180px;
+  }
+
+  .imageContainer {
+      margin: 0 auto; 
+      width: 100%; 
+      text-align: center;  
+      padding-left: 0%; 
+      margin-top: 0%; 
+      margin-left: 0%; 
+  }
+
+  .heading, .heading2 {
+      font-size: 40px;
+      text-align: center;
+  }
+
+  .headingContainer {
+      margin: 0 auto; 
+      width: 100%; 
+      text-align: center; 
+      padding: 0%; 
+      padding-top: 0%; 
+  }
+
+    .name {
+      font-size: 30px;
+    }
+
+    .para p{
+      font-size: 15px;
+      font-weight: 100;
+    }
+
+    .cards {
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      height: fit-content;
+    }
+
+    .card1 {
+      height: 350px;
+      width: 220px;
+      overflow: hidden;
+      padding: 0%;
+      
+      margin-left: 40px;
+    }
+
+    .aboutHeading {
+      margin: 1.75rem; 
+      margin-left: 1.875rem; 
+      font-size: 1.8rem; 
+      font-family: sans-serif;
+      font-weight: 900;
+      font-style: italic;
+      color: #3498db;
+    }
+    
+    .aboutImage {
+      margin-left: 3.2rem;
+      border-radius: 50%;
+      height: 120px;
+      width: 120px;
+    }
+    
+   .aboutpara {
+    color: #FAF9F6;
+    text-align: justify;
+    display: flex;
+    margin-top: 1em; 
+    padding: 6px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem; 
+  }
   
+    
+    
+    .card2 {
+      height: 350px;
+      width: 220px;
+      overflow: hidden;
+      margin: 40px;
+      padding: 0%;
+      bottom: 0%;
+    }
+
+    
+  .htmlcssImage {
+    margin-left: 4em;
+    display: flex;
+    gap: 30px;
+   }
+
+   .html {
+    width: 40px;
+    height: 40px;
+   }
+   .css {
+    width: 40px;
+    height: 40px;
+   }
+   .next{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   }
+   .react{
+    width: 40px;
+    height: 40px;
+   }
+   .js{
+    width: 40px;
+    height: 40px;
+   }
+
+   .aboutHeading2 {
+    margin: 1.75rem; 
+      margin-left: 2.975rem; 
+      font-size: 2.2rem; 
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #3498db;
+  }
+   
+   .nextContainer {
+     margin-left: 6em;
+   }
+   
+   
+   .jsreactImage {
+     margin-left: 4em;
+     display: flex;
+     gap: 30px;
+    }
+    
+   .aboutpara2 {
+     color: #FAF9F6;
+     text-align: justify;
+     display: flex;
+     margin-top: 0.825rem; 
+     font-family: sans-serif;
+     font-weight: 500;
+     font-size: 1rem; 
+     padding: 10px;
+   }
+   .contactContainer {
+    background-color: #353535;
+    color: #FAF9F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px; 
+    width: 100%;
+  }
+
+  .conheaddiv {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-right: 1.8rem;
+    
+  }
+
+  .contHeading {
+    font-size: 1.5rem; 
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0%;
+  }
+
+  .formContainer {
+    background-color: #2c2c2e;
+    color: #fdfcfc;
+    width: 100%; 
+    max-width: 340px; 
+    padding: 10px; 
+    border: 2px solid #145fcf;
+    border-radius: 10px;
+  }
+
+  .formInputs,
+  .textArea {
+    width: 100%;
+    padding: 8px; 
+    color: #FAF9F6;
+    background-color: #2c2c2e;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    margin-bottom: 1rem; 
+    font-size: 0.9rem;
+  }
+
+  .textArea {
+    height: 80px; 
+  }
+
+  .label {
+    display: block;
+    font-size: 0.8rem; 
+    margin-bottom: 0.5rem;
+  }
+
+  .submitButton {
+    border-radius: 5px;
+    padding: 8px; 
+    background-color: #145fcf;
+    color: white;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .submitButton:hover {
+    background-color: #1656b8;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .divContainer {
+    color: #FAF9F6;
+    background-color: #2c2c2e;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center items in the middle */
+    align-items: center; /* Align items horizontally */
+    flex-wrap: nowrap; /* Prevent wrapping to make alignment more predictable */
+    margin: auto;
+    max-width: 720px;
+    padding: 20px;
+}
+  
+  .headingContainer {
+    padding: 0.675rem; 
+    padding-top: 0.225rem; 
+  }
+  
+  .imageContainer {
+    padding: 0.875rem; 
+    padding-left: 0.5rem; 
+    margin-top: 2.625rem; 
+    margin-left: 0.5rem; 
+  }
+  
+  .heading {
+    color:  #3498db;;
+    text-align: center;
+    padding-top: 0%; 
+    padding-right: 3.75rem; 
+    font-size: 3rem; 
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .heading2 {
+    color: #3498db;
+    text-align: center;
+    font-size: 3rem; 
+    font-family: sans-serif;
+    padding-right: 3.875rem; 
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .pimage {
+    border-radius: 50%;
+    border: 0.25rem solid black; 
+  }
+  
+  .name {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 1.25rem; 
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 2.375rem; 
+    color: #3498db;
+   
+    padding-right: 2.5rem;
+  }
+  
+  .para {
+    text-align: center;
+  }
+  
+  .para p {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.475rem; 
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.5; 
+    color: #FAF9F6;
+  }
+  
+  .cards {
+    color: #FAF9F6;
+    background-color: #2c2c2e;
+    position: relative;
+    height: fit-content; 
+    overflow-y: auto; 
+    margin: 0 auto;
+    padding: 1.25rem;
+    display: grid;
+  }
+  
+  .card1 {
+    color: #3498db; 
+    width: 300px; 
+    height: 450px; 
+    border: 1px solid #3498db; 
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .aboutHeading {
+    margin: 1.75rem; 
+    margin-left: 4.375rem; 
+    font-size: 2rem; 
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #3498db;
+  }
+  
+  .aboutImage {
+    margin-left: 4.7rem;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+  }
+  
+  .card2 {
+    width: 300px; 
+    height: 450px; 
+    background-color: #353535;
+   border: 1px solid #3498db; 
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+    position: relative;
+    bottom: 0%; 
+    color: #3498db;
+  }
+  
+  .aboutHeading2 {
+    margin: 1.75rem; 
+    margin-left: 4.5rem; 
+    font-size: 3rem; 
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #3498db;
+  }
+  
+  .htmlcssImage {
+   margin-left: 4em;
+   display: flex;
+   gap: 70px;
+  }
+  
+  .nextContainer {
+    margin-left: 7em;
+  }
+  .next {
+    border-radius: 50%;
+  }
+  
+  .jsreactImage {
+    margin-left: 4em;
+    display: flex;
+    gap: 70px;
+   }
+   
+  
+  .aboutpara {
+    color: #FAF9F6;
+    text-align: justify;
+    display: flex;
+    margin-top: 0.325rem; 
+  
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem; 
+  }
+  
+  .aboutpara2 {
+    color: #FAF9F6;
+    text-align: justify;
+    display: flex;
+    margin-top: 0.125rem; 
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem; 
+    
+  }
+
+  .html {
+    width: 50px;
+    height: 50px;
+   }
+   .css {
+    width: 50px;
+    height: 50px;
+   }
+   .next{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+   }
+   .react{
+    width: 50px;
+    height: 50px;
+   }
+   .js{
+    width: 50px;
+    height: 50px;
+   }
+  
+  .conheaddiv {
+    display: grid;
+  }
+  
+  .contHeading {
+    font-size: 2.2rem; 
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0 auto;
+    padding: 16px;
+    
+  }
+  
+  .contactContainer {
+    background-color: #353535;
+    color: #FAF9F6;
+    display: grid;
+    padding: 10px;
+  }
+  
+  
+  .formContainer {
+    background-color: #2c2c2e; 
+    color: #fdfcfc;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    border: 2px solid #145fcf;
+    width: 100%;
+    padding: 40px;
+    border-radius: 20px;
+  }
+  
+  .formInputs, .textArea {
+    margin-bottom: 0.9375rem; 
+    width: 100%;
+    padding: 0.625rem; 
+    color: #FAF9F6;
+    background-color: #2c2c2e;
+  }
+  
+  .label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.3125rem; 
+  }
+  
+  .submitButton {
+    border-radius: 8px;
+    padding: 10px;
+    background-color:#145fcf;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #1656b8; 
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .divContainer {
+    color: #FAF9F6;
+    background-color: #2c2c2e;
+    display: flex;
+    gap: 3rem; 
+    padding-left: 3.5rem; 
+    flex-wrap: wrap;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  
+  .headingContainer {
+    padding: 3%; 
+    padding-top: 5%; 
+  }
+  
+  .imageContainer {
+    padding: 0.875rem; 
+    padding-left: 0.5rem; 
+    margin-top: 1.625rem; 
+    margin-left: 0.5rem; 
+  }
+  
+  .heading {
+    color:  #3498db;;
+    text-align: right;
+    padding-top: 0.625rem; 
+    padding-right: 5.75rem; 
+    font-size: 1.7rem; 
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .heading2 {
+    color: #3498db;
+    text-align: right;
+    font-size: 1.7rem; 
+    font-family: sans-serif;
+    padding-right: 8.875rem; 
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .pimage {
+    border-radius: 50%;
+    border: 0.25rem solid black; 
+    width: 250px;
+    height: 250px;
+  }
+  
+  .name {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0.55rem; 
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.975rem; 
+    color: #3498db;
+   
+    padding-right: 2.5rem;
+  }
+  
+  .para {
+    text-align: center;
+  }
+  
+  .para p {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.07rem; 
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.5; 
+    color: #FAF9F6;
+  }
+  
+  .cards {
+    color: #FAF9F6;
+    background-color: #2c2c2e;
+    padding: 2.5rem; 
+    position: relative;
+    height: fit-content;
+    overflow: hidden; 
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .card1 {
+    color: #3498db; 
+    width: 300px; 
+    height: 600px; 
+    border: 1px solid #3498db; 
+    align-items: center;
+    justify-content: center;
+    margin-left: 2.775rem; 
+    position: relative;
+  }
+  
+  .aboutHeading {
+    margin: 2.75rem; 
+    margin-left: 4.375rem; 
+    font-size: 2rem; 
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #3498db;
+  }
+  
+  .aboutImage {
+    margin-left: 3.5rem;
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+  }
+  
+  .card2 {
+    
+    width: 300px; 
+    height: 600px; 
+    background-color: #353535;
+   border: 1px solid #3498db; 
+    align-items: center;
+    justify-content: center;
+    margin-left: 4.375rem; 
+    position: relative; 
+    color: #3498db;
+    bottom: 0%;
+  }
+  
+  .aboutHeading2 {
+    margin: 40px; 
+    margin-left: 6.5rem; 
+    font-size: 2rem; 
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #3498db;
+  }
+  
+  .htmlcssImage {
+   margin-left: 3em;
+   display: flex;
+   gap: 70px;
+  }
+  
+  .nextContainer {
+    margin-left: 7em;
+  }
+  .next {
+    border-radius: 50%;
+  }
+  
+  .jsreactImage {
+    margin-left: 3em;
+    display: flex;
+    gap: 70px;
+   }
+   .css {
+    height: 70px;
+    width: 70px;
+   }
+   .html{
+    height: 70px;
+    width: 70px;
+   }
+   .next{
+    height: 80px;
+    width: 80px;
+   }
+   .js{
+    height: 70px;
+    width: 70px;
+   }
+   .react{
+    height: 70px;
+    width: 70px;
+   }
+  
+  .aboutpara {
+    color: #FAF9F6;
+    text-align: justify;
+    display: flex;
+    margin-top: 1.125rem; 
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem; 
+  }
+  
+  .aboutpara2 {
+    color: #FAF9F6;
+    text-align: justify;
+    display: flex;
+    margin-top: 4.125rem; 
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1rem; 
+    padding: 30px;
+  }
+  
+  .conheaddiv {
+    display: inline-block;
+  }
+  
+  .contHeading {
+    font-size: 4.2rem; 
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 2.5em;
+    margin-left: 3rem;
+    
+  }
+  
+  .contactContainer {
+    background-color: #353535;
+    color: #FAF9F6;
+    display: flex;
+    padding: 20px;
+  }
+  
+  
+  .formContainer {
+    background-color: #2c2c2e; 
+    color: #fdfcfc;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    border: 2px solid #145fcf;
+    width: 100%;
+    padding: 40px;
+    border-radius: 20px;
+  }
+  
+  .formInputs, .textArea {
+    margin-bottom: 0.9375rem; 
+    width: 100%;
+    padding: 0.625rem; 
+    color: #FAF9F6;
+    background-color: #2c2c2e;
+  }
+  
+  .label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.3125rem; 
+  }
+  
+  .submitButton {
+    border-radius: 8px;
+    padding: 10px;
+    background-color:#145fcf;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #1656b8; 
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .divContainer {
+    color: #FAF9F6;
+    background-color: #2c2c2e;
+    display: flex;
+    gap: 3rem; 
+    padding-left: 3.5rem; 
+    flex-wrap: wrap;
+    max-width: 1279px;
+    margin: 0 auto;
+  }
+  
+  .headingContainer {
+    padding: 4%; 
+    padding-top: 5%; 
+  }
+  
+  .imageContainer {
+    padding: 0.875rem; 
+    padding-left: 0.5rem; 
+    margin-top: 1.625rem; 
+    margin-left: 0.5rem; 
+  }
+  
+  .heading {
+    color:  #3498db;;
+    text-align: right;
+    padding-top: 0.625rem; 
+    padding-right: 5.75rem; 
+    font-size: 3.5rem; 
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .heading2 {
+    color: #3498db;
+    text-align: right;
+    font-size: 3.5rem; 
+    font-family: sans-serif;
+    padding-right: 10.875rem; 
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .pimage {
+    border-radius: 50%;
+    border: 0.25rem solid black; 
+    width: 250px;
+    height: 250px;
+  }
+  
+  .name {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 1.5rem; 
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 3.275rem; 
+    color: #3498db;
+   
+    padding-right: 2.5rem;
+  }
+  
+  .para {
+    text-align: center;
+  }
+  
+  .para p {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.4rem; 
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.5; 
+    color: #FAF9F6;
+  }
+  
+  .cards {
+    color: #FAF9F6;
+    background-color: #2c2c2e;
+    padding: 2.5rem; 
+    position: relative;
+    height: 87.5rem; 
+    overflow-y: auto; 
+  }
+  
+  .card1 {
+    color: #3498db; 
+    display: inline-block;
+    width: 350px; 
+    height: 600px; 
+    border: 1px solid #3498db; 
+    align-items: center;
+    justify-content: center;
+    margin-left: 4.375rem; 
+    position: relative;
+  }
+  
+  .aboutHeading {
+    margin: 1.75rem; 
+    margin-left: 4.375rem; 
+    font-size: 2.5rem; 
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #3498db;
+  }
+  
+  .aboutImage {
+    margin-left: 3.5rem;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .card2 {
+    display: inline-block;
+    width: 350px; 
+    height: 600px; 
+    background-color: #353535;
+   border: 1px solid #3498db; 
+    align-items: center;
+    justify-content: center;
+    margin-left: 4.375rem; 
+    position: relative;
+    bottom: -25rem; 
+    color: #3498db;
+  }
+  
+  .aboutHeading2 {
+    margin: 3.75rem; 
+    margin-left: 6.5rem; 
+    font-size: 3rem; 
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: #3498db;
+  }
+  
+  .htmlcssImage {
+   margin-left: 5em;
+   display: flex;
+   gap: 70px;
+  }
+  .nextContainer {
+    margin-left: 9em;
+  }
+  .next {
+    border-radius: 50%;
+  }
+  .jsreactImage {
+    margin-left: 5em;
+    display: flex;
+    gap: 70px;
+   }
+  .aboutpara {
+    color: #FAF9F6;
+    text-align: justify;
+    display: flex;
+    margin-top: 2.125rem; 
+    padding: 30px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem; 
+  }
+  
+  .aboutpara2 {
+    color: #FAF9F6;
+    text-align: justify;
+    display: flex;
+    margin-top: 1.125rem; 
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem; 
+  }
+   .css {
+    height: 70px;
+    width: 70px;
+   }
+   .html{
+    height: 70px;
+    width: 70px;
+   }
+   .next{
+    height: 80px;
+    width: 80px;
+   }
+   .js{
+    height: 70px;
+    width: 70px;
+   }
+   .react{
+    height: 70px;
+    width: 70px;
+   }
+  
+  
+  
+  .conheaddiv {
+    display: inline-block;
+  }
+  
+  .contHeading {
+    font-size: 4.2rem; 
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 2.5em;
+    margin-left: 3rem;
+    
+  }
+  
+  .contactContainer {
+    background-color: #353535;
+    color: #FAF9F6;
+    display: flex;
+    padding: 20px;
+  }
+  
+  
+  .formContainer {
+    background-color: #2c2c2e; 
+    color: #fdfcfc;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    border: 2px solid #145fcf;
+    width: 100%;
+    padding: 40px;
+    border-radius: 20px;
+  }
+  
+  .formInputs, .textArea {
+    margin-bottom: 0.9375rem; 
+    width: 100%;
+    padding: 0.625rem; 
+    color: #FAF9F6;
+    background-color: #2c2c2e;
+  }
+  
+  .label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.3125rem; 
+  }
+  
+  .submitButton {
+    border-radius: 8px;
+    padding: 10px;
+    background-color:#145fcf;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #1656b8; 
+  }
+}
+
+
+
