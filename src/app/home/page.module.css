@@ -7,6 +7,7 @@
     gap: 5rem; 
     padding-left: 3.5rem; 
     flex-wrap: wrap;
+    
   }
   
   .headingContainer {
@@ -244,14 +245,17 @@
     
   @media (max-width: 480px) {
     .divContainer {
-      color: #FAF9F6;
-      background-color: #2c2c2e;
-      display: flex;
-      flex-direction: column; 
-      justify-content: center; 
-      align-items: center; 
-      flex-wrap: nowrap; 
-      margin: auto;
+     color: #FAF9F6;
+    background-color: #2c2c2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin: auto;
+    max-width: 480px;
+    overflow: hidden;
+    padding: 20px;
   }
 
   .pimage {
@@ -272,6 +276,12 @@
       font-size: 40px;
       text-align: center;
   }
+  .heading {
+    margin-left: 60px;
+  }
+  .heading2 {
+    margin-left: 96px;
+  }
 
   .headingContainer {
       margin: 0 auto; 
@@ -283,18 +293,21 @@
 
     .name {
       font-size: 30px;
+      margin-right: 4px;
     }
 
     .para p{
       font-size: 15px;
       font-weight: 100;
+      margin-right: 6px;
     }
 
     .cards {
       align-items: center;
       justify-content: center;
       margin: 0 auto;
-      height: fit-content;
+      height: 950px;
+      
     }
 
     .card1 {
@@ -302,8 +315,9 @@
       width: 220px;
       overflow: hidden;
       padding: 0%;
-      
-      margin-left: 40px;
+      margin: 50px;
+      margin-left: 0 auto;
+      margin-right: 0 auto;
     }
 
     .aboutHeading {
@@ -340,9 +354,11 @@
       height: 350px;
       width: 220px;
       overflow: hidden;
-      margin: 40px;
+      margin: 50px;
       padding: 0%;
       bottom: 0%;
+      margin-left: 0 auto;
+      margin-right: 0 auto;
     }
 
     
@@ -486,12 +502,12 @@
     color: #FAF9F6;
     background-color: #2c2c2e;
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    justify-content: center; /* Center items in the middle */
-    align-items: center; /* Align items horizontally */
-    flex-wrap: nowrap; /* Prevent wrapping to make alignment more predictable */
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
     margin: auto;
-    max-width: 720px;
+    max-width: 768px;
     padding: 20px;
 }
   
