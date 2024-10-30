@@ -547,6 +547,8 @@
   .pimage {
     border-radius: 50%;
     border: 0.25rem solid black; 
+    width: 215px;
+    height: 215px;
   }
   
   .name {
